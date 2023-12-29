@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import { Popover, PopoverClose, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { FormInput } from "./form-input";
 import { FormSubmit } from "./form-submit";
-import { useAction } from "@/hooks/use-actions";
+import { useAction } from "@/hooks/use-action";
 import { createBoard } from "@/actions/create-board";
 import { toast } from "sonner";
 import { FormPicker } from "./form-picker";
